@@ -39,11 +39,11 @@ h4 {
 /*SOLO H2*/
 h2 {
     text-align: center;
-    width: 380px;
+    width: 30%;
     letter-spacing: 1px;
-    font-size: 40px;
-    margin-left: 20%;
-    margin-top: 50px;
+    font-size: 23px;
+    margin-left: 35%;
+    margin-top: 3%;
     color: black;
 }
 
@@ -55,7 +55,12 @@ h2 {
     margin-top: 60px;
 }
 
-
+/*MOBILE*/
+@media only screen and (max-width: 700px) {
+    #header {
+        height: 24%;
+    }
+}
 
 
 /*FOOTER*/
@@ -73,22 +78,22 @@ h2 {
 
         <!--HEADER-->
         <div id="header">
-            <a href="https://mixinupspirits.tumblr.com"><h1>Mixin' Up Spirits</h1></a>
+            <a href="index.php"><h1>Mixin' Up Spirits</h1></a>
        <div id="nav">
-          <a href="https://mixinupspirits.tumblr.com/about"><h4>About</h4></a>
-          <a href="https://mixinupspirits.tumblr.com/gallery"><h4>Gallery</h4></a>
-          <a href="https://mixinupspirits.tumblr.com/contact"><h4>Contact</h4></a>
+          <a href="about.php"><h4>About</h4></a>
+          <a href="gallery.php"><h4>Gallery</h4></a>
+          <a href="contact.php"><h4>Contact</h4></a>
        </div>
         </div>
 
         <h2>Premier mobile bartenders and mixologists in the Nation's Capitol</h2>
 
         
-        <div class="slideshow" style="width:70%">
-            <img class="mySlides" src="https://static.tumblr.com/d0yqrew/3Slpdnu70/good_times_2_.jpg -HighRes" style="width:100%">
-            <img class="mySlides" src="https://static.tumblr.com/d0yqrew/ko8pdnuol/good_times_.jpg -HighRes" style="width:100%">
-            <img class="mySlides" src="https://static.tumblr.com/d0yqrew/4bipdnu77/event_types_.jpg -HighRes" style="width:100%">
-            <img class="mySlides" src="https://static.tumblr.com/d0yqrew/XnTpdnukl/logo_photo_0.jpg -HighRes" style="width:100%">
+        <div class="slideshow" style="width:55%">
+            <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/good_times_nsozhv.jpg" style="width:100%">
+            <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/logo_photo_sh7fnw.jpg" style="width:100%">
+            <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/good_times_2_hjgpyf.jpg" style="width:100%">
+            <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424919/event_types_fhmviq.jpg" style="width:100%">
 
             
         </div> 
@@ -115,7 +120,7 @@ h2 {
                 x[myIndex-1].style.display = "block";  
                 setTimeout(carousel, 2000); // Change image every 2 seconds
             }
-            </script
+            </script>
         
 
     </body>
