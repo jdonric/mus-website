@@ -1,3 +1,7 @@
+<html>
+    <head>
+        <title>Mixin Up Spirits</title>
+
 <style type="text/css">
     /*BODY*/
 body {
@@ -80,6 +84,7 @@ hr {
     width:60%;
 }
 </style>
+</head>
 <!--HEADER-->
 <div id="header">
 <a href="index.php"><h1>Mixin&rsquo; Up Spirits</h1></a>
@@ -94,3 +99,5 @@ hr {
 <div id="footer"><hr />
 <h6>Mixin&rsquo; Up Spirits, LLC &copy; est. 2017</h6>
 </div>
+<body>
+<html>
