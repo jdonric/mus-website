@@ -1,6 +1,11 @@
 <html>
-<title>Mixin' Up Spirits</title>
+
 <head>
+        <title>Mixin' Up Spirits</title>
+        <meta name="social:title" content="Mixin' Up Spirits">
+<meta name="social:description" content="Premier mobile bartenders and mixologists in the nation's capitol">
+<meta name="social:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/logo_photo_sh7fnw.jpg">
+<meta name="social:card" content="mixinupspirits.com"
         
         <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1531505861/tab_mus_qxsjtj.png">
         <style type="text/css">
