@@ -1,11 +1,6 @@
 <html>
-
+<title>Mixin' Up Spirits</title>
 <head>
-        <title>Mixin' Up Spirits</title>
-        <meta name="social:title" content="Mixin' Up Spirits">
-<meta name="social:description" content="Premier mobile bartenders and mixologists in the nation's capitol">
-<meta name="social:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/logo_photo_sh7fnw.jpg">
-<meta name="social:card" content="mixinupspirits.com"
         
         <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1531505861/tab_mus_qxsjtj.png">
         <style type="text/css">
@@ -13,11 +8,9 @@
     margin:0;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 body {
     
 }
-
 /*HEADER*/
 #header {
     width: 100%;
@@ -25,58 +18,53 @@ body {
     background-color: black;
     
 }
-
 h1, #nav {
     display: inline-block;
     color: white;
 }
-
 h1 {
     margin-left: 53px;
 }
-
 h4 {
     display: inline-block;
     margin-left: 33px;
     color: #ffa208;
 }
-
 /*SOLO H2*/
 h2 {
-    text-align: center;
+    text-align: left;
     width: 30%;
     letter-spacing: 1px;
-    font-size: 23px;
+    font-size: 45px;
     margin-left: 35%;
     margin-top: 3%;
-    color: black;
+    color: white;
 }
-
-
-/*SLIDESHOW*/
-.slideshow {
-    margin:auto;
-    display: block;
-    margin-top: 60px;
+/*BAKGROUND VID*/
+#theVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index:-1;
 }
-
 /*MOBILE*/
 @media only screen and (max-width: 700px) {
     #header {
-        height: 24%;
+        height: 26%;
+    }
+    h2 {
+        font-size: 3em;
+        margin-left:15%;
     }
 }
-
-
 /*FOOTER*/
-
-
 #footer {
-    bottom: 1;
-    color: lightgrey;
+    bottom: 0;
+    color: grey;
     width:60%;
 }
-
         </style>
     </head>
     <body>
@@ -91,18 +79,14 @@ h2 {
        </div>
         </div>
 
+        <video autoplay muted loop id="theVideo">
+                <source src="https://res.cloudinary.com/rapha3l/video/upload/v1546795490/back_vid_adgu5w.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+        </video>
+
         <h2>Premier mobile bartenders and mixologists in the Nation's Capitol</h2>
 
-        
-        <div class="slideshow" style="width:55%">
-            <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/good_times_nsozhv.jpg" style="width:100%">
-            <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/logo_photo_sh7fnw.jpg" style="width:100%">
-            <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/good_times_2_hjgpyf.jpg" style="width:100%">
-            <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424919/event_types_fhmviq.jpg" style="width:100%">
-
-            
-        </div> 
-
+      
         
         <div id="footer">
              
@@ -110,23 +94,5 @@ h2 {
 
         </div>
 
-        <script>
-            var myIndex = 0;
-            carousel();
-            
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                   x[i].style.display = "none";  
-                }
-                myIndex++;
-                if (myIndex > x.length) {myIndex = 1}    
-                x[myIndex-1].style.display = "block";  
-                setTimeout(carousel, 2000); // Change image every 2 seconds
-            }
-            </script>
-        
-
-    </body>
+       
 </html>
