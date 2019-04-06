@@ -10,7 +10,7 @@
         <style type="text/css">
             /*BODY*/
 body {
-    background-color: #FFF5EE;
+    /*background-color: #FFF5EE;*/
     margin:0;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
