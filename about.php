@@ -7,7 +7,7 @@
             body {
                 margin:0;
                 font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                background-color: #FFF5EE;
+             /*   background-color: #FFF5EE; */
             }
             /*SLIDESHOW*/
             .slideshow {
