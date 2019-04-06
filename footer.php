@@ -30,7 +30,7 @@ a:visited {
 </head>
 <div id="footer">
                 <hr>
-            <h6>Mixin' Up Spirits, LLC &copy; est. 2017 | Designed by <a href="https://jiellr.com/">jdonric</a></h6>
+            <h6>Mixin' Up Spirits, LLC &copy; est. 2017 | Website by <a href="https://jiellr.com/">jdonric</a></h6>
 
         </div>
         
