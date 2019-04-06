@@ -1,5 +1,10 @@
 <html>
 <head>
+    <meta property="og:title" content="Mixin' Up Spirits">
+<meta property="og:description" content="Mobile Mixologists and Bartenders in the Washington, DC Metro Area">
+<meta property="og:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/logo_photo_sh7fnw.jpg">
+<meta property="og:url" content="www.mixinupspirits.com">
+    
 <link rel="stylesheet" href="../HTML/header.css">
 <style>
 #header {
