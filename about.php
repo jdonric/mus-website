@@ -114,7 +114,7 @@
     <br/>
   
     <p class="h3">TIPS & TAM Certified</p>
-<p >You can book us for your next event the confidence that you will not only being paying for good drinks and stellar customer service. Mixin' Up Spirits staff behind the bar are trained and certified in <b>TIPS (Training for Intervention ProcedureS)</b> and <b>TAM (Techniques of Alcohol Management)</b> to also ensure a safe drinking experience for all of your guests. </p>
+<p >You can book us for your next event the confidence that you will not only being paying for good drinks and stellar customer service, but also a safe and responsible atmosphere for everyone. Mixin' Up Spirits staff behind the bar are trained and certified in <b>TIPS (Training for Intervention ProcedureS)</b> and <b>TAM (Techniques of Alcohol Management)</b> to also ensure a safe drinking experience for all of your guests. </p>
 <br/>
 <br/>
 
