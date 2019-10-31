@@ -37,13 +37,14 @@ h4 {
 </style>
 </head>
 <!--HEADER-->
-<div id="header">
+    <body><div id="header">
             <a href="index.php"><h1>Mixin' Up Spirits</h1></a>
        <div id="nav">
           <a href="about.php"><h4>About</h4></a>
           <a href="gallery.php"><h4>Gallery</h4></a>
           <a href="contact.php"><h4>Contact</h4></a>
        </div>
-        </div>
+        </div></body>
+
 
 </html>
