@@ -6,7 +6,7 @@
 <meta property="og:url" content="www.mixinupspirits.com">
     <meta name="twitter:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/logo_photo_sh7fnw.jpg">
     
-<link rel="stylesheet" href="../HTML/header.css">
+
 <style>
 #header {
     width: 100%;
@@ -25,6 +25,7 @@ h4 {
     display: inline-block;
     margin-left: 33px;
     color: #ffa208;
+    font-size:2em;
 }
 
 @media only screen and (max-width: 700px) {
@@ -32,6 +33,12 @@ h4 {
     #header {
         height: 26%;
     }
+
+    h4 {
+    display: inline-block;
+    margin-left:33px;
+    color: #ffa208;
+}
 
 }
 </style>
