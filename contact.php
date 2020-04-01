@@ -1,15 +1,14 @@
 <html> 
     <head>
         <title>
-          Mixin' Up Spirits
+          Contact | Mixin' Up Spirits
         </title>
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-        <link rel="stylesheet" href="contact.css">
         <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1531505861/tab_mus_qxsjtj.png">
         
         <style type="text/css">
             /*BODY*/
 body {
+   /* background-color: #FFF5EE; */
     margin:0;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -37,13 +36,20 @@ h4 {
     color: #ffa208;
 }
 
+h2{
+    width: 45%;
+    margin: 3%;
+    font-size: 1.4em;
+    text-align: center;
+}
+
 a:link {
     text-decoration: none;
     color: #ffa208;
 }
 
 a:hover {
-    color: lightgrey;
+    color: lightgray;
 }
 
 a:visited {
@@ -55,12 +61,16 @@ a:visited {
 .feedback {
     width: 58%;
     height: 55%;
-    background-image: url('https://static.tumblr.com/d0yqrew/g0fpdo3du/unsplash_1.jpg');
+    background-image: url('https://res.cloudinary.com/rapha3l/image/upload/v1546821389/cocktail2_z4gfun.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
     margin:auto;
     display: block;
+
+    -webkit-box-shadow: 5px 8px 6px -6px #ffa208;
+	   -moz-box-shadow:5px 8px 6px -6px #ffa208;
+	        box-shadow: 5px 8px 6px -6px #ffa208; 
 }
 
 input {
@@ -86,6 +96,7 @@ input, button {
 h3 {
     font-size: 23px;
     color: white;
+    text-align:center;
 }
 
 button {
@@ -96,6 +107,8 @@ button {
     border-style: none;
     margin-left: 40px;
     margin-top: 40px;
+    text-align:center;
+    
 }
 
 
@@ -127,13 +140,25 @@ hr {
     .feedback {
     width: 58%;
     height: 55%;
-    background-image: url('https://res.cloudinary.com/rapha3l/image/upload/v1546256578/annie-spratt-1139509-unsplash_jgmuio.jpg');
+    background-image: url('https://res.cloudinary.com/rapha3l/image/upload/v1546821389/cocktail2_z4gfun.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain ;
     padding: 40px;
     margin:auto;
     display: block;
 }
+
+h4 {
+    display: inline-block;
+    margin-left: 4em;
+    color: #ffa208;
+}
+
+button {
+    width: 40%;
+    margin-left:30%;
+}
+
 }
         </style>
     </head>
@@ -160,7 +185,7 @@ hr {
             
             <form class="feedback">
                     <h3>Tell Us How We're Doing!</h3>
-            <button id="button">   <a href="survey.php">Survey</a></button> 
+            <button id="button">   <a href="survey.php" target="_black">Survey</a></button> 
            </form>
              
         </div>
@@ -169,11 +194,7 @@ hr {
 
 
        <!--FOOTER-->
-        <div id="footer">
-            <hr>
-        <h6>Mixin' Up Spirits, LLC &copy; est. 2017</h6>
-
-    </div>
+       <?php require "footer.php"; ?>
 
   
 
