@@ -19,7 +19,7 @@ a:link {
 }
 
 a:hover {
-    color: lightgrey;
+    color: lightgrey; /*notes*/
 }
 
 a:visited {
