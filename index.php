@@ -1,5 +1,5 @@
 <html>
-<title>Mixin' Up Spirits</title>
+<title>Mixin' Up Spirits | Mobile Mixologist (& Bartenders) in the DC Metro Area</title>
 <head>
         
         <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1531505861/tab_mus_qxsjtj.png">
@@ -14,7 +14,7 @@ body {
 /*HEADER*/
 #header {
     width: 100%;
-    height: 18%;
+    height: 20%;
     background-color: black;
     
 }
@@ -31,15 +31,26 @@ h4 {
     color: #ffa208;
 }
 /*SOLO H2*/
-h2 {
+
+#slogan {
     text-align: left;
-    width: 30%;
+    margin:auto;
+    display:block;
     letter-spacing: 1px;
-    font-size: 45px;
-    margin-left: 35%;
-    margin-top: 3%;
+    font-size: 4em;
+ width:60%;
+    margin-top: 10%;
     color: white;
+    text-shadow: 2px 1px #ffa208;
 }
+
+#mobile-logo {
+    display:none;
+    margin-left:60%;
+    width:40%;
+}
+
+
 /*BAKGROUND VID*/
 #theVideo {
   position: fixed;
@@ -48,6 +59,7 @@ h2 {
   min-width: 100%; 
   min-height: 100%;
   z-index:-1;
+  opacity: 0.87;
 }
 /*MOBILE*/
 @media only screen and (max-width: 700px) {
@@ -55,9 +67,27 @@ h2 {
         height: 26%;
     }
     h2 {
-        font-size: 3em;
+        font-size: 4em;
         margin-left:15%;
+        width:50%;
     }
+    #mobile-logo {
+    display:block;
+    margin:auto;
+    width:60%;
+}
+
+    #slogan {
+    text-align: left;
+    
+    letter-spacing: 1px;
+    font-size: 4em !important;
+ 
+    margin-top: 10%;
+    color: white;
+    text-shadow: 2px 1px #ffa208;
+    display:none;
+}
 }
 /*FOOTER*/
 #footer {
@@ -69,22 +99,16 @@ h2 {
     </head>
     <body>
 
-        <!--HEADER-->
-        <div id="header">
-            <a href="index.php"><h1>Mixin' Up Spirits</h1></a>
-       <div id="nav">
-          <a href="about.php"><h4>About</h4></a>
-          <a href="gallery.php"><h4>Gallery</h4></a>
-          <a href="contact.php"><h4>Contact</h4></a>
-       </div>
-        </div>
+        <?php require "header.php"; ?>
 
         <video autoplay muted loop id="theVideo">
                 <source src="https://res.cloudinary.com/rapha3l/video/upload/v1546795490/back_vid_adgu5w.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
         </video>
 
-        <h2>Premier mobile bartenders and mixologists in the Nation's Capitol</h2>
+        <img id="mobile-logo" src="https://res.cloudinary.com/rapha3l/image/upload/v1526221215/mus_logo_20_r7utsy.png" />
+
+        <p id="slogan">Premier mobile bartenders and mixologists in the Nation's Capitol</p>
 
       
         
