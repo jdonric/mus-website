@@ -24,7 +24,7 @@
             }
 
             h2 {
-                color:white ;
+                color:black ;
                 text-shadow: 2px 1px #ffa208;
                 font-size: 56px;
                 letter-spacing: 4px;
@@ -99,7 +99,7 @@
 <body>
 <?php require "header.php"; ?>
 
-<h2>ABOUT</h2>
+<h2>What is Mixin' Up Spirits?</h2>
 
 <p>Based in Washington, DC, we provide bartending services for a wide range of clientele and venues, even non-alcoholic and kiddie events! We at Mixin&rsquo; Up Spirits pride ourselves on our <b><em>professionalism</em></b>, our <b><em>versatility</em></b>, and <b><em>personability</em></b>. Mixin&rsquo; Up Spirits is guarunteed to serve a good drink for those good times.</p>
 
