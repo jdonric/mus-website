@@ -86,7 +86,7 @@ h4 {
     margin-top: 10%;
     color: white;
     text-shadow: 2px 1px #ffa208;
-    display:none;
+    display:block;
 }
 }
 /*FOOTER*/
@@ -106,7 +106,7 @@ h4 {
                 Your browser does not support HTML5 video.
         </video>
 
-        <img id="mobile-logo" src="https://res.cloudinary.com/rapha3l/image/upload/v1526221215/mus_logo_20_r7utsy.png" />
+       
 
         <p id="slogan">Premier mobile bartenders and mixologists in the Nation's Capitol</p>
 
