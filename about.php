@@ -1,7 +1,13 @@
 <html>
     <head>
     <title>About | Mixin' Up Spirits</title>
-    <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1531505861/tab_mus_qxsjtj.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Mixin' Up Spirits">
+<meta property="og:description" content="Mobile Mixologists and Bartenders in the Washington, DC Metro Area">
+<meta property="og:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/mobile-bartending-services.jpg">
+<meta property="og:url" content="www.mixinupspirits.com">
+    <meta name="twitter:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/mobile-bartending-services.jpg">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1526221215/mixin-up-spirits-logo.png">
             <style type="text/css">
                 /*BODY*/
             body {
@@ -60,7 +66,7 @@
         
 
         #info {
-            width: 30%;
+            width: 40%;
             height: auto;
             margin:auto;
             display: block;
@@ -93,28 +99,40 @@
                 z-index: -1;
                 top:25%;
             }
+
+            #info {
+            width: 90%;
+            height: auto;
+            margin:auto;
+            display: block;
+            margin-bottom: 5%; 
+               -webkit-box-shadow: 5px 8px 6px -6px #ffa208;
+	   -moz-box-shadow:5px 8px 6px -6px #ffa208;
+	        box-shadow: 5px 8px 6px -6px #ffa208;
+        }
+
             }
             </style>
     </head>
 <body>
 <?php require "header.php"; ?>
 
-<h2>What is Mixin' Up Spirits?</h2>
+<h2>Mixin' Up Spirits</h2>
 
-<p>Based in Washington, DC, we provide bartending services for a wide range of clientele and venues, even non-alcoholic and kiddie events! We at Mixin&rsquo; Up Spirits pride ourselves on our <b><em>professionalism</em></b>, our <b><em>versatility</em></b>, and <b><em>personability</em></b>. Mixin&rsquo; Up Spirits is guarunteed to serve a good drink for those good times.</p>
+<p>Based in Washington, DC, we are certified bartenders and mixologists providing services for a wide range of clientele and venues, even non-alcoholic and kiddie events! We at Mixin&rsquo; Up Spirits pride ourselves on our <b><em>professionalism</em></b>, our <b><em>versatility</em></b>, and <b><em>personability</em></b>. Mixin&rsquo; Up Spirits is guarunteed to serve a good drink for those good times.</p>
 
 
 <div class="slideshow" style="width:65%">
-        <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/good_times_nsozhv.jpg" style="width:100%">
-        <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/logo_photo_sh7fnw.jpg" style="width:100%">
-        <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/good_times_2_hjgpyf.jpg" style="width:100%">
-        <img class="mySlides" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424919/event_types_fhmviq.jpg" style="width:100%">
+        <img class="mySlides" alt="Good drinks for good times.." src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/good-drinks-for-good-times-1.jpg" style="width:100%">
+        <img class="mySlides" alt="... quality mobile bartending and mixology ..." src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/mobile-bartending-services.jpg" style="width:100%">
+        <img class="mySlides" alt="... based in Washington, DC ..." src="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/good-drinks-for-good-times-2.jpg" style="width:100%">
+        <img class="mySlides" alt="we do weddings, coporate mixers, and VIP events!" src="https://res.cloudinary.com/rapha3l/image/upload/v1531424919/bartending-for-weddings-mixers-evening-events.jpg" style="width:100%">
 
     </div>
     <br/>
   
     <p class="h3">TIPS & TAM Certified</p>
-<p >You can book us for your next event the confidence that you will not only being paying for good drinks and stellar customer service, but also a safe and responsible atmosphere for everyone. Mixin' Up Spirits staff behind the bar are trained and certified in <b>TIPS (Training for Intervention ProcedureS)</b> and <b>TAM (Techniques of Alcohol Management)</b> to also ensure a safe drinking experience for all of your guests. </p>
+<p >You can book us for your next event with the confidence that you will not only being paying for good drinks and stellar customer service, but also a safe and responsible atmosphere for everyone. Mixin' Up Spirits staff behind the bar are trained and certified in <b>TIPS (Training for Intervention ProcedureS)</b> and <b>TAM (Techniques of Alcohol Management)</b> to also ensure a safe drinking experience for all of your guests. </p>
 <br/>
 <br/>
 
@@ -124,7 +142,7 @@
 <br/>
 <br/>
 
-    <img id="info" src="https://res.cloudinary.com/rapha3l/image/upload/v1554493702/bt_vs_mx_wef98p.png">
+    <img id="info" alt="mixologists vs bartending infographic" src="https://res.cloudinary.com/rapha3l/image/upload/v1554493702/mixologist-vs-bartender.png">
 
    <!--FOOTER-->
    <?php require "footer.php"; ?>
