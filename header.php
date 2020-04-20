@@ -1,43 +1,61 @@
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Mixin' Up Spirits">
-<meta property="og:description" content="Mobile Mixologists and Bartenders in the Washington, DC Metro Area">
-<meta property="og:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/logo_photo_sh7fnw.jpg">
-<meta property="og:url" content="www.mixinupspirits.com">
-    <meta name="twitter:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/logo_photo_sh7fnw.jpg">
+
     
 
 <style>
 #header {
     width: 100%;
-    height: 18%;
+    height: 10%;
     background-color: black;
 }
-h1, #nav {
+h3, #nav {
     display: inline-block;
     color: whitesmoke;
 }
-h1 {
+h3 {
     margin-left: 53px;
+    color: #ffa208;
     
 }
 h4 {
     display: inline-block;
     margin-left: 33px;
-    color: #ffa208;
-    font-size:2em;
+    color: whitesmoke;
+    font-size:1.2em;
 }
 
 @media only screen and (max-width: 700px) {
 
     #header {
-        height: 26%;
+        height: 20%;
+        padding-top:5%;
+        width:100%;
+    }
+
+    h3 {
+        text-align:left;
+        color: #ffa208;
+        font-size:1em;
+        text-decoration:none;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration:none;
     }
 
     h4 {
     display: inline-block;
-    margin-left:33px;
-    color: #ffa208;
+   
+    color: whitesmoke;
+    font-size:0.8em;
+
 }
 
 }
@@ -45,10 +63,11 @@ h4 {
 </head>
 <!--HEADER-->
     <div id="header">
-            <a href="index.php"><h1>Mixin' Up Spirits</h1></a>
+            <a href="index.php"><h3>Mixin' Up Spirits</h3></a>
        <div id="nav">
+       <a href="index.php"><h4>Home</h4></a>
           <a href="about.php"><h4>About</h4></a>
-          <a href="gallery.php"><h4>Gallery</h4></a>
+        <!--  <a href="gallery.php"><h4>Gallery</h4> -->
           <a href="contact.php"><h4>Contact</h4></a>
        </div>
         </div>
