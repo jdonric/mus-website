@@ -1,9 +1,15 @@
 <html> 
     <head>
         <title>
-          Contact | Mixin' Up Spirits
+          Contact | Mobile Mixologist Bartenders in the DC Metro Area - Mixin' Up Spirits
         </title>
-        <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1531505861/tab_mus_qxsjtj.png">
+
+        <meta property="og:title" content="Mixin' Up Spirits">
+<meta property="og:description" content="Mobile Mixologists and Bartenders in the Washington, DC Metro Area">
+<meta property="og:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/mobile-bartending-services.jpg">
+<meta property="og:url" content="www.mixinupspirits.com">
+    <meta name="twitter:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/mobile-bartending-services.jpg">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1526221215/mixin-up-spirits-logo.png">
         
         <style type="text/css">
             /*BODY*/
@@ -11,23 +17,22 @@ body {
    /* background-color: #FFF5EE; */
     margin:0;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('https://res.cloudinary.com/rapha3l/image/upload/v1587400852/contact-mixin-up-spirits-background_dxbb4a.png');
+        background-attachment: fixed;
+        background-size: cover;
+
 }
+
+
 
 /*HEADER*/
-#header {
-    width: 100%;
-    height: 18%;
-    background-color: black;
-    
-}
 
-h1, #nav {
-    display: inline-block;
-    color: white;
-}
+
 
 h1 {
-    margin-left: 53px;
+    text-align:center;
+    width:40%;
+    margin:3%;margin:auto;display:block;
 }
 
 h4 {
@@ -45,7 +50,8 @@ h2{
 
 a:link {
     text-decoration: none;
-    color: #ffa208;
+    color: black;
+    cursor:pointer;
 }
 
 a:hover {
@@ -53,24 +59,19 @@ a:hover {
 }
 
 a:visited {
-    color: white;
+    color: gray;
 }
 
 
 /* "HIDDEN MODAL" */
 .feedback {
-    width: 58%;
+    width: 5%;
     height: 55%;
-    background-image: url('https://res.cloudinary.com/rapha3l/image/upload/v1546821389/cocktail2_z4gfun.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+   
     padding: 40px;
     margin:auto;
     display: block;
-
-    -webkit-box-shadow: 5px 8px 6px -6px #ffa208;
-	   -moz-box-shadow:5px 8px 6px -6px #ffa208;
-	        box-shadow: 5px 8px 6px -6px #ffa208; 
+ 
 }
 
 input {
@@ -93,25 +94,25 @@ input, button {
     height: 30%;
 }
 
-h3 {
-    font-size: 23px;
-    color: white;
-    text-align:center;
-}
+
 
 button {
-    padding: 20px;
+   font-size: 18px;
     background-color: black;
     color: white;
-    border-radius: 85%;
+  padding:10px;
     border-style: none;
-    margin-left: 40px;
-    margin-top: 40px;
+    margin:auto;display:block;
+    cursor:pointer;
     text-align:center;
     
 }
 
-
+.ig {
+    margin:auto;
+    display:block;
+    width:80px;
+}
 
 
 
@@ -133,38 +134,47 @@ hr {
 
 /*MOBILE*/
 @media only screen and (max-width: 700px) {
-    #header {
-        height: 25%;
-    }
+    body {
+   /* background-color: #FFF5EE; */
+    margin:0;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('https://res.cloudinary.com/rapha3l/image/upload/v1587401012/contact-mixin-up-spirits-background-mobile_jos5ky.png');
+        background-attachment: fixed;
+        background-size: cover;
+
+}
+
+h1 {
+    text-align:center;
+    font-size: 1.2em;
+    width: 80%;
+    margin:auto;display:block;
+    
+}
 
     .feedback {
     width: 58%;
     height: 55%;
-    background-image: url('https://res.cloudinary.com/rapha3l/image/upload/v1546821389/cocktail2_z4gfun.jpg');
-    background-repeat: no-repeat;
-    background-size: contain ;
+    
     padding: 40px;
     margin:auto;
     display: block;
 }
 
-h4 {
-    display: inline-block;
-    margin-left: 4em;
-    color: #ffa208;
-}
+
 
 button {
-    width: 40%;
-    margin-left:30%;
+    padding: 12px;
+    margin:auto;
+    display:block;
 }
 
 }
         </style>
     </head>
     <body>
-
-        <!--HEADER-->
+    <?php require "header.php"; ?>
+        <!--HEADER
         <div id="header">
             <a href="index.php"><h1>Mixin' Up Spirits</h1></a>
             <div id="nav">
@@ -172,13 +182,19 @@ button {
                <a href="gallery.php"><h4>Gallery</h4></a>
                <a href="contact.php"><h4>Contact</h4></a>
             </div>
-        </div>
+        </div>-->
 
         <!--HEY, CONTACT US-->
-        <h2>For booking and general inquiries, email us at mixinupspirits@gmail.com. </h2>
+        &nbsp; <br/><br/>
+        <h1>For booking and general inquiries, email us at <a heref="mailto:mixinupspirits@gmail.com">mixinupspirits@gmail.com.</a> </h1>
+        <p style="text-align:center;">or</p>
+
+        <a href="survey.php" target="_blank"><button>Tell Us How We're Doing</button></a>
+<br/><br/>
+<a href="https://www.instagram.com/mixinupspirits/"><img class="ig" alt="Follow us on IG: @mixinupspirits" src="https://res.cloudinary.com/rapha3l/image/upload/v1587404505/mixin-up-spirits-follow-on-ig_wziryc.png" /></a>
 
 
-   <!--"HIDDEN MODAL"-->
+   <!--"HIDDEN MODAL"
 
         <div class="modal-container">
             
@@ -188,10 +204,12 @@ button {
             <button id="button">   <a href="survey.php" target="_black">Survey</a></button> 
            </form>
              
-        </div>
+        </div>-->
 
 
-
+<br/><br/>
+<br/><br/>
+<br/><br/>
 
        <!--FOOTER-->
        <?php require "footer.php"; ?>
