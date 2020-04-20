@@ -1,15 +1,17 @@
 <html>
      <head>
          <title>Clientele Feedback</title>
-         <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1526221215/mus_logo_20_r7utsy.png">
-         <link rel="stylesheet" href="client_feedback.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta property="og:title" content="Mixin' Up Spirits">
+<meta property="og:description" content="Mobile Mixologists and Bartenders in the Washington, DC Metro Area">
+<meta property="og:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/mobile-bartending-services.jpg">
+<meta property="og:url" content="www.mixinupspirits.com">
+    <meta name="twitter:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/mobile-bartending-services.jpg">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1526221215/mixin-up-spirits-logo.png">
          
          <style type="text/css">
              body{
- background-image: url('https://res.cloudinary.com/rapha3l/image/upload/v1533477300/survey_background_ndbd28.jpg');
- background-size: contain;
- background-repeat: none;
- background-attachment: fixed;
+ margin:0;
 }
 
 h1 {
@@ -23,7 +25,7 @@ h1 {
 
             <h1>Mixin' Up Spirits</h1>
            
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfVaudXla0Ns5b2QIAQTs-Jmw126usOW070x7ce0Hfn2dtQ7A/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfVaudXla0Ns5b2QIAQTs-Jmw126usOW070x7ce0Hfn2dtQ7A/viewform?embedded=true" width="500" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 
 </body>
