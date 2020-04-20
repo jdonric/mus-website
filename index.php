@@ -1,8 +1,15 @@
 <html>
-<title>Mixin' Up Spirits | Mobile Mixologist (& Bartenders) in the DC Metro Area</title>
+<title>Mobile Mixologist Bartenders in the DC Metro Area - Mixin' Up Spirits</title>
 <head>
-        
-        <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1531505861/tab_mus_qxsjtj.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta property="og:title" content="Mixin' Up Spirits">
+<meta property="og:description" content="Mobile Mixologists and Bartenders in the Washington, DC Metro Area">
+<meta property="og:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/mobile-bartending-services.jpg">
+<meta property="og:url" content="www.mixinupspirits.com">
+    <meta name="twitter:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/mobile-bartending-services.jpg">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1526221215/mixin-up-spirits-logo.png">
+
         <style type="text/css">
         body {
     margin:0;
@@ -28,26 +35,31 @@ h1 {
 h4 {
     display: inline-block;
     margin-left: 33px;
-    color: #ffa208;
+    color:whitesmoke;
 }
 /*SOLO H2*/
 
 #slogan {
-    text-align: left;
+    text-align: center;
     margin:auto;
     display:block;
     letter-spacing: 1px;
-    font-size: 4em;
- width:60%;
-    margin-top: 10%;
-    color: white;
-    text-shadow: 2px 1px #ffa208;
+    font-size: 3em;
+ width:70%;
+    margin-top: 5%;
+    color: white ; /* #ffa208 */
+    
 }
 
-#mobile-logo {
-    display:none;
-    margin-left:60%;
-    width:40%;
+.welcome-logo {
+   margin-left:82%;
+   width: 11%;
+}
+
+.icons {
+   margin:auto;
+   display:block;
+   width: 33%;
 }
 
 
@@ -63,37 +75,54 @@ h4 {
 }
 /*MOBILE*/
 @media only screen and (max-width: 700px) {
-    #header {
-        height: 26%;
+    body {
+        background-image: url('https://res.cloudinary.com/rapha3l/image/upload/v1546821389/cocktail2_z4gfun.jpg');
+        background-attachment: fixed;
+        background-size: cover;
     }
+    .welcome-logo {
+  margin:auto;display:block;
+   width: 40%;
+}
+
     h2 {
         font-size: 4em;
         margin-left:15%;
         width:50%;
     }
-    #mobile-logo {
-    display:block;
-    margin:auto;
-    width:60%;
+
+ /*BAKGROUND VID*/
+#theVideo {
+  display:none;
 }
 
+
+.icons {
+   margin:auto;
+   display:block;
+   width: 55%;
+}
+   
     #slogan {
-    text-align: left;
+  
     
     letter-spacing: 1px;
-    font-size: 4em !important;
- 
-    margin-top: 10%;
+    font-size: 2em !important;
+ width: 70%;
+    margin-top: 5%;
     color: white;
-    text-shadow: 2px 1px #ffa208;
+  
     display:block;
 }
 }
 /*FOOTER*/
 #footer {
     bottom: 0;
-    color: grey;
+    color: gray;
+    font-weight:lighter;
     width:60%;
+    position:fixed;
+    opacity:0.7;
 }
         </style>
     </head>
@@ -102,15 +131,16 @@ h4 {
         <?php require "header.php"; ?>
 
         <video autoplay muted loop id="theVideo">
-                <source src="https://res.cloudinary.com/rapha3l/video/upload/v1546795490/back_vid_adgu5w.mp4" type="video/mp4">
+                <source src="https://res.cloudinary.com/rapha3l/video/upload/v1546795490/mixin-up-spirits-mixology-video.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
         </video>
 
-       
+        <img class="welcome-logo" alt="Mixin' Up Spirits" src="https://res.cloudinary.com/rapha3l/image/upload/v1526221215/mixin-up-spirits-logo.png" />
 
-        <p id="slogan">Premier mobile bartenders and mixologists in the Nation's Capitol</p>
+        <h1 id="slogan">High quality mobile bartenders and mixologists in the DC Metro area.</h1>
 
-      
+        <img class="icons" alt="Ask us about corporate, private, and even non-alcoholic events!" src="https://res.cloudinary.com/rapha3l/image/upload/v1587390708/mixin-up-spirits-cocktail-variety-white.png" />
+        <br/><br/>
         
         <div id="footer">
              
