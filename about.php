@@ -138,7 +138,7 @@
 
 
 <p class="h3">Bartending  vs  Mixolgy</p>
-<p >What's is the difference?</p>
+	<p >What's the difference between <em>bartending</em> and <em>mixology</em>?</p>
 <br/>
 <br/>
 
