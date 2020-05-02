@@ -7,7 +7,7 @@
 <meta property="og:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/mobile-bartending-services.jpg">
 <meta property="og:url" content="www.mixinupspirits.com">
     <meta name="twitter:image" content="https://res.cloudinary.com/rapha3l/image/upload/v1531424918/mobile-bartending-services.jpg">
-    <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1588423162/mixinupspirits-browser-logo.png">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/rapha3l/image/upload/v1588423523/mixinupspirits-tab-brand-logo.png">
             <style type="text/css">
                 /*BODY*/
             body {
